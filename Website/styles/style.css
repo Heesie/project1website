@@ -1,0 +1,115 @@
+@media only screen and (max-width: 667px) {
+
+body{
+background-color: #F3E5DA;
+font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.pijl{
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+
+.drukhier{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #D1B7A0;
+    padding: 20px;
+    color: black;
+    margin: 5px;
+    box-shadow: black 1px 1px 5px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.boeken{
+    background-image: url(/Website/img/boekenstapel3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 40px;
+    border: 1px solid black;
+    box-shadow: black 1px 1px 5px;
+    
+}
+
+.conceptboek{
+    margin-left: 25px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: large;
+
+}
+
+.duurzaamheidboek{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -10px;
+    font-size: large;
+}
+
+.minimapboek{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    font-size: large;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background: white;
+    color: black;
+    box-shadow: black 2px 2px 5px;
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+div{
+    display: flex;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+    font-size: small;
+    padding-top: 5px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+}
